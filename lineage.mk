@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/yu/tomato/full_tomato.mk)
+$(call inherit-product, device/bq/tomato/full_tomato.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_mini_phone.mk)
@@ -22,7 +22,7 @@ $(call inherit-product, vendor/lineage/config/common_mini_phone.mk)
 TARGET_BOARD_PLATFORM_VARIANT := msm8939
 
 PRODUCT_NAME := lineage_tomato
-BOARD_VENDOR := yu
+BOARD_VENDOR := bq
 PRODUCT_DEVICE := tomato
 
 PRODUCT_GMS_CLIENTID_BASE := android-micromax

@@ -19,11 +19,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from tomato device
-$(call inherit-product, device/yu/tomato/device.mk)
+$(call inherit-product, device/bq/tomato/device.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := tomato
 PRODUCT_NAME := full_tomato
-PRODUCT_BRAND := YU
-PRODUCT_MODEL := AO5510
-PRODUCT_MANUFACTURER := YU
+PRODUCT_BRAND := bq
+PRODUCT_MODEL := M5
+PRODUCT_MANUFACTURER := bq

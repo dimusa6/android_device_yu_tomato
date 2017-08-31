@@ -15,7 +15,7 @@
 #
 
 # Inherit from msm8916-common
-$(call inherit-product, device/cyanogen/msm8916-common/msm8916.mk)
+$(call inherit-product, device/bq/msm8916-common/msm8916.mk)
 
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
@@ -29,4 +29,4 @@ PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model ro.sf.lcd_density
 include $(LOCAL_PATH)/product/*.mk
 
 # Call the proprietary setup
-$(call inherit-product, vendor/yu/tomato/tomato-vendor.mk)
+$(call inherit-product, vendor/bq/piccolo/piccolo-vendor.mk)

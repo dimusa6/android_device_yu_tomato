@@ -13,12 +13,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/cyanogen/msm8916-common/BoardConfigCommon.mk
+include device/bq/msm8916-common/BoardConfigCommon.mk
 
-include device/yu/tomato/board/*.mk
-
-# Assertions
-TARGET_BOARD_INFO_FILE := device/yu/tomato/board-info.txt
+include device/bq/tomato/board/*.mk
 
 # Inherit from proprietary files
-include vendor/yu/tomato/BoardConfigVendor.mk
+include vendor/bq/piccolo/BoardConfigVendor.mk
